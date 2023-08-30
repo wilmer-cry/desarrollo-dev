@@ -1,0 +1,78 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  h1 a img{
+    width: 270px;
+    margin-left: 75px;
+    padding-bottom: 0px;
+  }
+  /* Estilo del encabezado */
+  .mi-encabezado {
+
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permite envolver los elementos cuando la pantalla es pequeña */
+  }
+
+
+  
+  body{
+    margin: 100px;
+  }
+  .mi-encabezado h1 {
+    margin: 0;
+  }
+  
+  .mi-encabezado nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+  }
+  
+  .mi-encabezado nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 15px 15px;
+  }
+  
+  .mi-encabezado nav a:hover {
+
+    background-color: red;
+    color: white;
+    text-decoration: none;
+
+  }
+  
+  /* Estilos responsivos */
+  @media screen and (max-width: 768px) {
+    .mi-encabezado {
+      flex-direction: row; /* Cambiar a columna en pantallas pequeñas */
+      text-align: center; /* Centrar contenido en pantallas pequeñas */
+    }
+  
+    .mi-encabezado nav {
+      margin-top: 25px; /* Espacio entre h1 y el menú en pantallas pequeñas */
+    }
+  
+    .mi-encabezado nav ul {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  #etiqueta2{
+    color: red;
+  }
+
+  color
